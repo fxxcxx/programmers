@@ -10,7 +10,7 @@ string solution(vector<string> seoul) {
         if(seoul[i]=="Kim")
         {
             answer += "김서방은 ";
-            answer += to_string(i); 
+            answer += to_string(i); //숫자를  string으로 변환
             answer += "에 있다" ;
          }
     }
