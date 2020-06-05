@@ -1,0 +1,17 @@
+sort 알고리즘
+
+vector<string> v;
+sort(v.begin(), v.end()) 오름차순
+sort(v.begin(), v.end(), less<string>()) 오름차순
+sort(v.begin(), v.end(), greater<string>())내림차순
+sort(v.begin(), v.end(), cmp); 사용자 함수 cmp 사용
+
+   for(int i=1; i<phone_book.size();i++){ //1로 안하면 자기 자신도 비교해서 무조건  false;
+   
+    if(phone_book[0]==phone_book[i].substr(0,phone_book[0].size())
+    => 배열의 처음 문장이 같냐? 배열의 i번째랑 비교하는데. 0번째부터 배열의 처음 문장 길이까지만 추출해서
+    
+    
+    
+    
+substr 헷갈려 너 싫어
