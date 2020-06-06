@@ -1,0 +1,28 @@
+프로그래머스 처음으로
+functional 헤더 추가해서 풀었다.
+
+따라서 소수찾는 함수 isPrime
+찾은 숫자가 numbers 안에 있는지 보는 함수 inNum 
+두개를 bool로 선언하여 && true일때 answer++ 함.
+
+하나 궁금한 점은
+에라토스테네스(이하 eratos)의 체를 구현할 때,
+
+<내가 풀어온 알고리즘>
+
+ for(int i=2; i<=num; i++){
+        if (arr[i])
+            for(int j=i+i; j<=num; j+=i)
+                arr[j] = false;
+    }
+    
+<구글링한 알고리즘>
+   for(int i=2; i*i<=num; i++) {
+        if(arr[i]) // 만약 처음 수가 true이면(소수이면)
+            for(int j=i*i; j<=num; j+=i)
+              arr[j] = false; // 그 배수를 false로 바꿔주기(소수의 배수는 소수가 아님)
+    }
+    
+   
+for문의 조건이 왜 다른지 이해가 안가는데
+코테 3시부터 보니 잠깐 사색은 패스..
