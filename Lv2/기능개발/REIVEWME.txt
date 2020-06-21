@@ -1,0 +1,7 @@
+queue는 무엇을 푸시&팝 하느냐가 중요한듯…
+
+vector 멤버함수 push_back()
+유용하니까 잘 기억해두기 !
+
+answer 하는 부분에서
+day 값 비교하는 부분 -> key point
