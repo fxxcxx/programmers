@@ -1,0 +1,11 @@
+priority_queue<int, vector<int>, greater<int>>
+이처럼 형, 구현체, 비교연산자로 정의한다.
+
+구현체는 대체로 vector<자료형>으로 정의된다.
+
+비교연산자는 기본적으로 less<자료형>으로 정의
+-> 내림차순
+greater 를 넣으면 오름차순으로 나온다.
+
+queue의 top, push, pop을 좀 더 자유자재로 쓸 수 있으니까
+겁먹지 않는게 중요한듯 하다..
